@@ -20,6 +20,7 @@ namespace RolesModulesPemissionDemo.Controllers
             _db = context;
         }
 
+
         
         [HttpGet("GetAllModules/")]
         public IEnumerable<Module> GetAllModules()
